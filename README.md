@@ -66,15 +66,3 @@ The application will automatically start and open in your default browser at:
    - Click **"⚡ Test with Model"** on any story to classify it on the fly.
    - Click **"⚡ Test with Model"** to classify live news on the fly.
 
----
-
-## 🎓 Viva Questions & Answers (For Full 10 Marks)
-
-**Q1: What algorithm did you use and why?**  
-*Answer:* We used **Logistic Regression** paired with **TF-IDF Vectorization**. For text classification with high-dimensional sparse feature spaces, Logistic Regression is computationally efficient, less prone to overfitting with regularization, and provides calibrated probability scores.
-
-**Q2: What is TF-IDF?**  
-*Answer:* TF-IDF stands for *Term Frequency - Inverse Document Frequency*. It evaluates how important a word is to an article relative to the entire dataset. Common words (like "the", "is") receive low weights, while distinctive journalistic words receive higher weights.
-
-**Q3: How did you solve the Real News misclassification issue?**  
-*Answer:* In the raw dataset, real articles started with `WASHINGTON (Reuters) -`. Standard models memorize `"reuters"` as the only indicator of truth. In our `clean_text()` preprocessing, we stripped publisher prefixes so the model learns genuine journalistic writing style (e.g., attribution verbs like *"said"*, neutral tone) rather than publisher brand names.
