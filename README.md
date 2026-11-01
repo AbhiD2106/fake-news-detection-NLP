@@ -1,10 +1,3 @@
-# 📰 Fake & Real News Detection Using NLP
-
-**Academic Lab Project — MSc Semester 3 (NLP Activity)**  
-**Max Marks:** 10 Marks  
-**Technology Stack:** Python, Streamlit, Scikit-Learn, TF-IDF, Logistic Regression, BeautifulSoup  
-
----
 
 ## 🎯 Project Overview
 This project detects whether a news article or headline is **Real News** or **Fake News** using Natural Language Processing (NLP) and Machine Learning.
