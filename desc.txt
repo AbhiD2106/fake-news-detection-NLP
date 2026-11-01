@@ -10,5 +10,6 @@ The saved binary file of the trained model and vectorizer, allowing the web app 
 requirements.txt:
 The dependency list containing all required Python libraries (Streamlit, Scikit-Learn, Pandas, BeautifulSoup, Joblib) to install and run the app.
 
+
 README.md:
 The project documentation outlining the technical setup, evaluation metrics (97.9% Accuracy), and steps to run the application on localhost.
