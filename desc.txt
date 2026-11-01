@@ -13,3 +13,8 @@ The dependency list containing all required Python libraries (Streamlit, Scikit-
 
 README.md:
 The project documentation outlining the technical setup, evaluation metrics (97.9% Accuracy), and steps to run the application on localhost.
+
+
+run:
+
+python -m streamlit run app.py
