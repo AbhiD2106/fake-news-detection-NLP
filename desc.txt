@@ -1,0 +1,14 @@
+app.py:
+The main script that handles text preprocessing, TF-IDF feature extraction, Logistic Regression prediction, and the Streamlit web interface for classifying news from URLs and live feeds.
+
+Fake.csv & True.csv:
+The labeled training datasets containing ~45,000 articles used to train and evaluate the model (0 for Fake news, 1 for Real news).
+
+model_cache.joblib:
+The saved binary file of the trained model and vectorizer, allowing the web app to load instantly without retraining 45,000 articles every time.
+
+requirements.txt:
+The dependency list containing all required Python libraries (Streamlit, Scikit-Learn, Pandas, BeautifulSoup, Joblib) to install and run the app.
+
+README.md:
+The project documentation outlining the technical setup, evaluation metrics (97.9% Accuracy), and steps to run the application on localhost.
